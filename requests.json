@@ -1,0 +1,15 @@
+{
+  "note": "Sample blood-bank requests bundled with the app. A real version would fetch these from your own backend.",
+  "requests": [
+    { "id": "r1", "bloodType": "O-", "units": 3, "urgency": "critical", "phone": "+966112889999",
+      "hospital": { "en": "King Fahad Medical City Blood Bank", "ar": "بنك الدم بمدينة الملك فهد الطبية" }, "city": { "en": "Riyadh", "ar": "الرياض" } },
+    { "id": "r2", "bloodType": "A+", "units": 2, "urgency": "urgent", "phone": "+966114355555",
+      "hospital": { "en": "King Saud Medical City", "ar": "مدينة الملك سعود الطبية" }, "city": { "en": "Riyadh", "ar": "الرياض" } },
+    { "id": "r3", "bloodType": "AB+", "units": 1, "urgency": "normal", "phone": "+966114777714",
+      "hospital": { "en": "King Khalid University Hospital", "ar": "مستشفى الملك خالد الجامعي" }, "city": { "en": "Riyadh", "ar": "الرياض" } },
+    { "id": "r4", "bloodType": "B+", "units": 2, "urgency": "urgent", "phone": "+966126401000",
+      "hospital": { "en": "King Abdulaziz University Hospital", "ar": "مستشفى الملك عبدالعزيز الجامعي" }, "city": { "en": "Jeddah", "ar": "جدة" } },
+    { "id": "r5", "bloodType": "O+", "units": 4, "urgency": "normal", "phone": "+966138420000",
+      "hospital": { "en": "King Fahd Hospital of the University", "ar": "مستشفى الملك فهد الجامعي" }, "city": { "en": "Khobar", "ar": "الخبر" } }
+  ]
+}
